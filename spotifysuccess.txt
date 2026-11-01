@@ -1,1 +1,1 @@
-﻿https://phuonggiane-mod.vercel.app/api/raw/spotify.sgmodule
+https://phuonggiane-mod.vercel.app/api/raw/spotify.sgmodule
