@@ -1,4 +1,4 @@
-#!name=Locket Gold - iKiS
+
 
 [General]
 user-agent = Locket/1.0.0 (iPhone; iOS 26.3; Scale/3.00)
