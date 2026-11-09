@@ -1,0 +1,221 @@
+https://phuonggiane-mod.vercel.app/api/raw/locketgoldvip.sgmodule
+https://doh.2707226.xyz/tuyen208
+https://raw.githubusercontent.com/haanhphuong845-a11y/phuon…Ac%20locket%20hay%20t%E1%BB%AB%20anh%20dung%20repect%20c.txt
+https://locketvip.mydns.lol/filter-profile/z3Ug6RYC5qpyLGHSJi3NujTY4kjmfx-RnJyijg3Lp9A
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+  <dict>
+    <key>PayloadDisplayName</key>
+    <string>Locket Gold VIP [H VY]</string>
+    <key>PayloadDescription</key>
+    <string>Cấu hình Locket Gold VIP (Camera Filter) dành riêng cho @quochuy207. Cài xong: Cài đặt → Cài đặt chung → Giới thiệu → Cài đặt tin cậy chứng nhận → Bật "LocketProxy CA".</string>
+    <key>PayloadIdentifier</key>
+    <string>com.locketgold.vip.quochuy207.config</string>
+    <key>PayloadOrganization</key>
+    <string>Locket Gold VIP</string>
+    <key>PayloadType</key>
+    <string>Configuration</string>
+    <key>PayloadUUID</key>
+    <string>E6870993-FEE2-4C85-B273-0401F874F942</string>
+    <key>PayloadVersion</key>
+    <integer>1</integer>
+    <key>PayloadRemovalDisallowed</key>
+    <false />
+    <key>PayloadContent</key>
+    <array>
+
+      <!-- ① Trust CA Certificate -->
+      <dict>
+        <key>PayloadType</key>
+        <string>com.apple.security.root</string>
+        <key>PayloadIdentifier</key>
+        <string>com.locketgold.vip.quochuy207.ca</string>
+        <key>PayloadUUID</key>
+        <string>F26333CF-0E1B-4DD6-9828-03C0DF394D50</string>
+        <key>PayloadVersion</key>
+        <integer>1</integer>
+        <key>PayloadDisplayName</key>
+        <string>LocketProxy CA</string>
+        <key>PayloadCertificateFileName</key>
+        <string>LocketProxyCA.cer</string>
+        <key>PayloadContent</key>
+        <data>
+MIIDCTCCAfGgAwIBAgIBATANBgkqhkiG9w0BAQsFADA/MRcwFQYDVQQDEw5Mb2Nr
+ZXRQcm94eSBDQTEXMBUGA1UEChMOTG9jYWwgUmVzZWFyY2gxCzAJBgNVBAYTAlZO
+MB4XDTI2MDkyNjA0NDQ0MloXDTM2MDkyNjA0NDQ0MlowPzEXMBUGA1UEAxMOTG9j
+a2V0UHJveHkgQ0ExFzAVBgNVBAoTDkxvY2FsIFJlc2VhcmNoMQswCQYDVQQGEwJW
+TjCCASIwDQYJKoZIhvcNAQEBBQADggEPADCCAQoCggEBAKUdiV8qKFTA9twV9HT9
+zIsnYWakTT0lHJcQsITUPJ75hUuPRXWdfglj9gLVTwwjRru2n65T3oHAy1j+Odv5
+p7pThkZlSHhnD245L1/H+5ncUeb7FHZpUoW9ITr4V9vRg+AIF/qaVyVKgOD6BUrg
+ufCcm1CNhBEzoURk7JfW5URGhY6B6vNxcEaekRVMVpFHrIQ/WwI1bwCBeB1v8Ggn
+YBJZtnDcKfP3KO4hItW+dGnIl+9SVQ6mPxXArhysxJgs0olTl9bSBDb+7GTWpMGT
+7pJPEuhLX1Byv609XDKf/Hexa8+3eckUx97H7jKZUmEtdQuinSzKke6pS0YQR1IH
+CjsCAwEAAaMQMA4wDAYDVR0TBAUwAwEB/zANBgkqhkiG9w0BAQsFAAOCAQEAldf0
+/QHRK611YDQ8PhjJMz8tyR+1WMjxWXrp8aWdm/Fz2HUJ8uowwkF7aQDeLjG9HoGZ
+0fmVKoOK3slY5V+nENXDL+lUIi9hrs/+YZLIwYWaYpnebHQeWhvFo4tUrydmYe9V
+3chTtfYlOo6hYIFADDfq1uyox4GYJsEwAE8iyhgt42uQCM9ukdCIZk7dTnm2aSU6
+HvMOqs3b4hFyuA9K/G/i2Yicw/haX9XIbCd2n//mR1BLLx8M6gyUt+ZFESObVeDO
+wpuVxXdvHjqioW/R4WbGMIDl0S25JUPqTOcAtnAZq5gDAWZqUILCrNztNrUie6eP
+qpv4tIzmciB8o+HdmQ==
+        </data>
+      </dict>
+
+      <!-- ② DNS over HTTPS có mã xác thực riêng của VIP user -->
+      <dict>
+        <key>PayloadType</key>
+        <string>com.apple.dnsSettings.managed</string>
+        <key>PayloadIdentifier</key>
+        <string>com.locketgold.vip.quochuy207.dns</string>
+        <key>PayloadUUID</key>
+<string>3819FDB4-37FB-4BC2-BCBF-8B88E596E4A7</string>
+        <key>PayloadVersion</key>
+        <integer>1</integer>
+        <key>PayloadDisplayName</key>
+        <string>Locket VIP Filter DNS</string>
+        <key>DNSSettings</key>
+        <dict>
+          <key>DNSProtocol</key>
+          <string>HTTPS</string>
+      
+          <key>SupplementalMatchDomains</key>
+          <array>
+            <string>api.revenuecat.com</string>
+            <string>revenuecat.com</string>
+            <string>firebaseremoteconfig.googleapis.com</string>
+            <string>firebaseremoteconfigrealtime.googleapis.com</string>
+            <string>firebaselogging.googleapis.com</string>
+            <string>adsbynimbus.com</string>
+            <string>locketlabs-locketcamera.adsbynimbus.com</string>
+            <string>api.locketcamera.com</string>
+          </array>
+        </dict>
+      </dict>
+
+    </array>
+  </dict>
+</plist>
+https://locketvip.mydns.lol/filter-profile/z3Ug6RYC5qpyLGHsJi3NujTY4kjmfx-RnJyijg3Lp9A
+https://youtu.be/0e0duD8_LFE?si=MS6QNt5UFJnTrYlb
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+  <dict>
+    <key>PayloadDisplayName</key>
+    <string>Locket Gold VIP [H VY]</string>
+    <key>PayloadDescription</key>
+    <string>Cấu hình Locket Gold VIP (Camera Filter) dành riêng cho @quochuy207. Cài xong: Cài đặt → Cài đặt chung → Giới thiệu → Cài đặt tin cậy chứng nhận → Bật &quot;LocketProxy CA&quot;.</string>
+    <key>PayloadIdentifier</key>
+    <string>com.locketgold.vip.quochuy207.config</string>
+    <key>PayloadOrganization</key>
+    <string>Locket Gold VIP</string>
+    <key>PayloadType</key>
+    <string>Configuration</string>
+    <key>PayloadUUID</key>
+    <string>B5DC2F4A-00A2-437D-96E9-05BB36FFBA9A</string>
+    <key>PayloadVersion</key>
+    <integer>1</integer>
+    <key>PayloadRemovalDisallowed</key>
+    <false />
+    <key>PayloadContent</key>
+    <array>
+
+      <!-- ① Trust CA Certificate -->
+      <dict>
+        <key>PayloadType</key>
+        <string>com.apple.security.root</string>
+        <key>PayloadIdentifier</key>
+        <string>com.locketgold.vip.quochuy207.ca</string>
+        <key>PayloadUUID</key>
+        <string>7FF0FD4D-5D45-415C-970E-03C84D2F4A6E</string>
+        <key>PayloadVersion</key>
+        <integer>1</integer>
+        <key>PayloadDisplayName</key>
+        <string>LocketProxy CA</string>
+        <key>PayloadCertificateFileName</key>
+        <string>LocketProxyCA.cer</string>
+        <key>PayloadContent</key>
+        <data>
+MIIDCTCCAfGgAwIBAgIBATANBgkqhkiG9w0BAQsFADA/MRcwFQYDVQQDEw5Mb2Nr
+ZXRQcm94eSBDQTEXMBUGA1UEChMOTG9jYWwgUmVzZWFyY2gxCzAJBgNVBAYTAlZO
+MB4XDTI2MDkyNjA0NDQ0MloXDTM2MDkyNjA0NDQ0MlowPzEXMBUGA1UEAxMOTG9j
+a2V0UHJveHkgQ0ExFzAVBgNVBAoTDkxvY2FsIFJlc2VhcmNoMQswCQYDVQQGEwJW
+TjCCASIwDQYJKoZIhvcNAQEBBQADggEPADCCAQoCggEBAKUdiV8qKFTA9twV9HT9
+zIsnYWakTT0lHJcQsITUPJ75hUuPRXWdfglj9gLVTwwjRru2n65T3oHAy1j+Odv5
+p7pThkZlSHhnD245L1/H+5ncUeb7FHZpUoW9ITr4V9vRg+AIF/qaVyVKgOD6BUrg
+ufCcm1CNhBEzoURk7JfW5URGhY6B6vNxcEaekRVMVpFHrIQ/WwI1bwCBeB1v8Ggn
+YBJZtnDcKfP3KO4hItW+dGnIl+9SVQ6mPxXArhysxJgs0olTl9bSBDb+7GTWpMGT
+7pJPEuhLX1Byv609XDKf/Hexa8+3eckUx97H7jKZUmEtdQuinSzKke6pS0YQR1IH
+CjsCAwEAAaMQMA4wDAYDVR0TBAUwAwEB/zANBgkqhkiG9w0BAQsFAAOCAQEAldf0
+/QHRK611YDQ8PhjJMz8tyR+1WMjxWXrp8aWdm/Fz2HUJ8uowwkF7aQDeLjG9HoGZ
+0fmVKoOK3slY5V+nENXDL+lUIi9hrs/+YZLIwYWaYpnebHQeWhvFo4tUrydmYe9V
+3chTtfYlOo6hYIFADDfq1uyox4GYJsEwAE8iyhgt42uQCM9ukdCIZk7dTnm2aSU6
+HvMOqs3b4hFyuA9K/G/i2Yicw/haX9XIbCd2n//mR1BLLx8M6gyUt+ZFESObVeDO
+wpuVxXdvHjqioW/R4WbGMIDl0S25JUPqTOcAtnAZq5gDAWZqUILCrNztNrUie6eP
+qpv4tIzmciB8o+HdmQ==
+        </data>
+      </dict>
+
+      <!-- ② DNS over HTTPS có mã xác thực riêng của VIP user -->
+      <dict>
+        <key>PayloadType</key>
+        <string>com.apple.dnsSettings.managed</string>
+        <key>PayloadIdentifier</key>
+        <string>com.locketgold.vip.quochuy207.dns</string>
+        <key>PayloadUUID</key>
+<string>87872877-CC4C-4DA4-8997-D044E4145404</string>
+        <key>PayloadVersion</key>
+        <integer>1</integer>
+        <key>PayloadDisplayName</key>
+        <string>Locket Gold VIP DNS</string>
+        <key>DNSSettings</key>
+        <dict>
+          <key>DNSProtocol</key>
+          <string>HTTPS</string>
+          <key>ServerURL</key>
+          <string>https://locketvip.mydns.lol/dns-query-vip?u=Nog1uKUb5oTgVBxsl0igcc75NsD2&amp;t=7187ca8a82ad4943</string>
+          <key>SupplementalMatchDomains</key>
+          <array>
+            <string>api.revenuecat.com</string>
+            <string>revenuecat.com</string>
+            <string>firebaseremoteconfig.googleapis.com</string>
+            <string>firebaseremoteconfigrealtime.googleapis.com</string>
+            <string>firebaselogging.googleapis.com</string>
+            <string>adsbynimbus.com</string>
+            <string>locketlabs-locketcamera.adsbynimbus.com</string>
+            <string>api.locketcamera.com</string>
+          </array>
+        </dict>
+      </dict>
+
+    </array>
+  </dict>
+</plist>
+<string>87872877-CC4C-4DA4-8997-D044E4145404</string>
+        <key>PayloadVersion</key>
+        <integer>1</integer>
+        <key>PayloadDisplayName</key>
+        <string>Locket Gold VIP DNS</string>
+        <key>DNSSettings</key>
+        <dict>
+          <key>DNSProtocol</key>
+          <string>HTTPS</string>
+          <key>ServerURL</key>
+          <string>https://locketvip.mydns.lol/dns-query-vip?u=Nog1uKUb5oTgVBxsl0igcc75NsD2&amp;t=7187ca8a82ad4943</string>
+          <key>SupplementalMatchDomains</key>
+          <array>
+            <string>api.revenuecat.com</string>
+            <string>revenuecat.com</string>
+            <string>firebaseremoteconfig.googleapis.com</string>
+            <string>firebaseremoteconfigrealtime.googleapis.com</string>
+            <string>firebaselogging.googleapis.com</string>
+            <string>adsbynimbus.com</string>
+            <string>locketlabs-locketcamera.adsbynimbus.com</string>
+            <string>api.locketcamera.com</string>
+          </array>
+        </dict>
+      </dict>
+
+    </array>
+  </dict>
+</plist>
